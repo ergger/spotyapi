@@ -1,0 +1,3 @@
+<app-loading *ngIf="loading" class="m-5" ></app-loading>
+<app-error *ngIf="error" [error]="message"></app-error>
+<app-cards [items]=newSingles></app-cards>
